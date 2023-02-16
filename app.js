@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 const path = require("path");
-dotenv.config({ path: path.join(__dirname, "config.env") });
+dotenv.config({ path: path.join(__dirname, ".env") });
 console.log(process.env.TWILIO_ACCOUNT_SID);
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
